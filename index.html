@@ -1,1 +1,547 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <title>My bootstrap</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<!--Slider CSS-->
+   <link href="css/slider.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	
+
+</head>
+
+<body>
+   <header id="head">
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top ">
+         <div class="container-fluid">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <div class="navbar-header">
+      <a class="navbar-brand" href="#">YOUR LOGO</a>
+     </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            
+          
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#team" onclick=$("#menu-close").click();>Team</a>
+            </li>
+            <li>
+                <a href="#testimonial" onclick=$("#menu-close").click();>Testimonial</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+             </div>
+        </div>
+    </nav>
+    </header>
+    <!-- slider -->
+
+ <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="img/bg.jpg" alt="First slide"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_center">
+                                <h1 data-animation="animated zoomInRight">First Title</h1>
+                                <p data-animation="animated fadeInLeft">Sub Title</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="img/bg1.jpg" alt="Second Slide"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated flipInX">Srcond Title</h1>
+                        <p data-animation="animated lightSpeedIn">Sub Title</p>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="img/ask.jpg" alt="Third Slide"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated zoomInLeft">Third Slide</h1>
+                        <p data-animation="animated fadeInRight">Sub Title</p>
+                       
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div> <!-- End  bootstrap-touch-slider Slider -->
+        
+       <!-- Remeber to put all the content you want on top of the slider below the slider code --> 
+        
+             
+         
+          
+
+
+
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us Section</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+					Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+					Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                   
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+   
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md- col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h2>
+                                    <strong>Service Name</strong>
+                                </h2>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+								 <button type="button" class="btn btn-light" \>Learn More</button>
+										
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h2>
+                                    <strong>Service Name</strong>
+                                </h2>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                <button type="button" class="btn btn-light">Learn More</button>
+										 
+								</div>
+                        </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Our Latest Projects</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item" >
+                                
+                                    <button type="button" class="btn btn-lighter">
+									<img class="img-portoflio img-responsive" src="img/portfolio-1.jpg"></button>
+									
+                        </div>
+						</div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <button type="button" class="btn btn-lighter" >
+									<img class="img-portoflio img-responsive" src="img/portfolio-2.jpg"></button>
+									
+                        </div>
+						</div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                 <button type="button" class="btn btn-lighter" >
+									<img class="img-portoflio img-responsive" src="img/portfolio-3.jpg"></button>
+									
+                        </div>
+						</div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                 <button type="button" class="btn btn-lighter" data-toggle="modal" data-target="#myModalport4">
+									<img class="img-portoflio img-responsive" src="img/portfolio-4.jpg"></button>
+									
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                  
+										 
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        </div>
+    </section>
+            <section class="web_disigner" id="team">
+<div class="web_disigner_contain">
+  <center><h1  style=" display:inline;">Our Team</h1></center>
+  <div class="container">
+  <div class='row'>
+    <div class='col-md-12'>
+      <div class="carousel slide media-carousel" id="media">
+        <div class="carousel-inner">
+          <div class="item  active">
+            <div class="row">
+              <div class="col-md-4 padtop30">
+                <center><div class="parent_circle">
+                  <div class="parent_circle_contain">
+                  <p>ABC </p>
+                  <p>DEVELOPER PROFILE </p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class=" child_round_circle child_round_circle_img1">
+                  
+                </div>
+                </div>
+                </center>
+              </div>          
+              <div class="col-md-4 padtop30">
+               <center><div class="parent_circle">
+               <div class="parent_circle_contain">
+                  <p>ABC</p>
+                  <p>DESIGNER PROFILE</p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class="child_round_circle child_round_circle_img2  ">
+                  
+                </div>
+                </div>
+                </center>
+              </div>
+              <div class="col-md-4 padtop30">
+            <center> <div class="parent_circle">
+                  <div class="parent_circle_contain">
+                  <p>ABC</p>
+                  <p>DESIGNER PROFILE</p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class=" child_round_circle child_round_circle_img3 ">
+                  
+                </div>
+                </div>
+                </center> 
+              </div>        
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4 padtop30">
+                <center><div class="parent_circle">
+                  <div class="parent_circle_contain">
+                  <p>ABC</p>
+                  <p>DESIGNER PROFILE</p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class=" child_round_circle child_round_circle_img4 ">
+                  
+                </div>
+                </div>
+                </center>
+              </div>              
+              <div class="col-md-4 padtop30">
+                <center><div class="parent_circle">
+                  <div class="parent_circle_contain">
+                  <p>ABC</p>
+                  <p>Developer PROFILE</p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class=" child_round_circle child_round_circle_img5">
+                </div>
+                </div>
+                </center>
+              </div>    
+               <div class="col-md-4 padtop30">
+                <center><div class="parent_circle">
+                  <div class="parent_circle_contain">
+                  <p>ABC</p>
+                  <p>DESIGNER PROFILE</p>
+                  <a href="#">Know More...</a>
+                </div>
+                <div class=" child_round_circle child_round_circle_img6">
+                </div>
+                </div>
+                </center>
+              </div>            
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+        <a data-slide="next" href="#media" class="right carousel-control">›</a>
+      </div>                          
+    </div>
+  </div>
+</div>
+</div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+  <div class="row">
+    <div class='col-md-offset-2 col-md-8 text-center'>
+    <h2>Testimonials</h2>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/face.png" style="width: 100px;height:100px;">
+                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                </div>
+                <div class="col-sm-9">
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/face.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="img/face.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+  </div>
+</div>
+    </section>
+   <!-- Map -->
+    <section id="contact" class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.972336122934!2d79.04036700832397!3d21.114771871049207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf8b3119d84f%3A0x3b21951a1f16127d!2sAkshat+Apartment%2C+Ring+Rd%2C+Subhash+Nagar%2C+Trimurtee+Nagar%2C+Nagpur%2C+Maharashtra+440022!5e0!3m2!1sen!2sin!4v1491997308517" width="100%" height="100%" frameborder="0" style="border:0" ></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.co.in/maps/place/Akshat+Apartment,+Ring+Rd,+Subhash+Nagar,+Trimurtee+Nagar,+Nagpur,+Maharashtra+440022/@21.1147719,79.040367,18z/data=!4m19!1m13!4m12!1m3!2m2!1d79.0423286!2d21.1144388!1m6!1m2!1s0x3bd4bf8b3119d84f:0x3b21951a1f16127d!2sAkshat+Apartment,+Ring+Rd,+Subhash+Nagar,+Trimurtee+Nagar,+Nagpur,+Maharashtra+440022!2m2!1d79.042413!2d21.1146084!3e2!3m4!1s0x3bd4bf8b3119d84f:0x3b21951a1f16127d!8m2!3d21.1146084!4d79.042413"></a>
+        </small>
+    </section>
+<div class="container">
+
+</div>
+    <!-- Footer -->
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+    <div class="form-area">  
+        <form role="form">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                    </div>
+            
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+</div>
+
+                <div class="col-md-6  text-center contact">
+                    <h4><strong>Company Name here</strong>
+                    </h4>
+                    <p>Address line 1
+                        <br>Address line 2</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="#">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                   
+					
+            </div>
+            </div>
+        </div>
+         <hr class="smal  text-center"><p class="text-center">All rights reserved. &copy;2017<p>
+					<p class="text-center">Company Name.</p>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+  <!-- custom Core JavaScript -->
+	<script src="js/stylish.js"></script>
+<!--Slider JavaScript-->
+<script> <link src="js/slider.js"> </script>
+	
+</body>
+
+</html>
+
